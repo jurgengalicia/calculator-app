@@ -69,3 +69,14 @@ tr, td{
     color: #26b821;
     font-family:"Fira Sans", sans-serif;
 }
+
+.math{
+    color: #26b821;
+    font-family: "Fira Sans", sans-serif;
+}
+
+input[type=button]:hover{
+    background-color: #ffa900;
+    color: #fff;
+    transition: all 0.5s linear;
+}
