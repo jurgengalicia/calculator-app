@@ -1,4 +1,4 @@
-
+//target elements assigned to variables
 const result = document.getElementById("resultText");
 const calculation = document.getElementById("calculationText");
 
@@ -15,12 +15,12 @@ document.getElementById("clear").addEventListener("click", function(){
 
 
 document.getElementById("equal").addEventListener("click", function(){
-    var exp = caluclation.textContent;
+    var exp = calculation.textContent;
     result.textContent = eval(exp);
     calculation.textContent = result.textContent;
 });
 
-document.getElementById("back").addEventListener("click", funcvtion(){
+document.getElementById("back").addEventListener("click", function(){
     var exp = calculation.textContent;
     calculation.textContent = exp.substring(0, exp.length - 1);
 });

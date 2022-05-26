@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Calculator-app</title>
         <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap" rel="stylesheet">
@@ -13,11 +13,11 @@
         <div class="calculator">
             <div class="screen">
                 <div class="screenContent">
-                    <p ckass="calculation">
+                    <p class="calculation">
                         <span id="calculationText"></span>
                     </p>
                     <p class="result">
-                        <span id="calculationText">0</span>
+                        <span id="resultText">0</span>
                     </p>
                 </div>
             </div>
@@ -50,13 +50,13 @@
                     </td>
                 </tr>
                 <tr>
-                    <td colspan=2>
-                        <input style="height: 100px" class="btn" type="button" onclick="insert(0)" value="0">
+                    <td colspan="2">
+                        <input style="width: 100px" class="btn" type="button" onclick="insert(0)" value="0">
                     </td>
                     <td><input class="btn" type="button" onclick="insert('.')" value="."></td>
                 </tr>
             </table>
         </div>
-        <script type="script.js"></script>
+        <script src="script.js"></script>
     </body>
 </html>
